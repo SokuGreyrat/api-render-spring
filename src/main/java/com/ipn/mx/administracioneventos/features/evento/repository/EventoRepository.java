@@ -1,4 +1,4 @@
-package com.ipn.mx.administracioneventos.features.asistente.repository;
+package com.ipn.mx.administracioneventos.features.evento.repository;
 
 import com.ipn.mx.administracioneventos.core.domain.Evento;
 import org.springframework.data.jpa.repository.JpaRepository;

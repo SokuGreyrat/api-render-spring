@@ -1,4 +1,4 @@
-package com.ipn.mx.administracioneventos.features.asistente.controller;
+package com.ipn.mx.administracioneventos.features.evento.controller;
 
 import com.ipn.mx.administracioneventos.core.domain.Evento;
 import com.ipn.mx.administracioneventos.features.evento.service.EventoService;
@@ -12,9 +12,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static java.util.stream.DoubleStream.concat;
+@CrossOrigin(origins = {"*"}) /* Para recibir solicitudes CORS, es decir,
+Sirve para que una aplicación web pueda hacer peticiones HTTP al backend de Spring Boot,
+aunque estén en diferentes dominios o puertos.*/
 
-@CrossOrigin(origins = {"*"})
 @RestController
 @RequestMapping("/api/v1/eventos")
 public class EventoController {
